@@ -1,0 +1,9 @@
+cryptography
+numpy
+pandas
+pycoingecko
+python-dotenv
+requests
+websockets
+influxdb-client
+datetime

@@ -1,0 +1,15 @@
+Remindesr
+- Lets not forget about websockets? im not sure if we need them or not 
+
+TODO
+- redesign how API keys will be handled on a per user basis, and ensure the directory organization makes sense
+- clean up the functions, add error checks and usage messages where needed 
+- get basic data ingestion up and running, consider immediately implementing SQL- explore TUI options for tracking what code is currently running
+	o im envisioning custom functions, maybe written in basg for comand line utility, that display things like 
+	- current data ingestion running and statistics about it, cannot run large csvs in the terminal, need something like LAST CALL, etc
+		- gotta remember that we are interacting with multiple APIs here, so think about threading here
+		- unsure if you'll need a thread for each process (ingestion, decicion making, etc). Multiple servesr? AQ Lab uses nodes?
+	- current bot trading strategy running 
+	- bot performance over various windows, and maybe other metrics 
+	* CONSIDERING THE GOAL IS TO DEVELOP STRATEGIES FOR DIFFERENT COINS AND/OR MARKETS, THIS NEEDS TO BE SCALABLE
+

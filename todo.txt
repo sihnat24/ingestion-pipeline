@@ -1,0 +1,5 @@
+state:
+ingest - code to utilize kalshi_helpers
+kalshi_helpers - functions for retreival
+run_ingestion - runs injestion pipeline to create csvs
+
