@@ -30,7 +30,7 @@ services:
   bot:
     build: .
     environment:
-      - KALSHI_PEM_PATH=/secrets/kalshi.pem
+      - KALSHI_PEM_PATH=${SECRET_PEM_PATH}
       - INFLUX_USERNAME=${INFLUX_USERNAME}
       - INFLUX_PASSWORD=${INFLUX_PASSWORD}
       - INFLUX_ORG=${INFLUX_ORG}
