@@ -58,12 +58,12 @@ Copy the example below into a `.env` file at the repo root:
 
 ```
 KALSHI_KEY_ID=your-kalshi-key-id
-KALSHI_PEM_PATH=/secrets/kalshi.pem
+KALSHI_PEM_PATH=path/to/secret_kalshi.pem
 INFLUX_URL=http://influxdb:8086
-INFLUX_USERNAME=admin
+INFLUX_USERNAME=your-username
 INFLUX_PASSWORD=your-password
-INFLUX_ORG=kalshi
-INFLUX_BUCKET=markets
+INFLUX_ORG=your-org
+INFLUX_BUCKET=your-bucket-name
 INFLUX_TOKEN=your-token
 SECRETS_PATH=/path/to/local/secrets/dir
 ```
